@@ -11,7 +11,9 @@ html {
     /*filter: brightness(50%);*/
 }
     
-
+.text-color {
+    color: var(--text-color);
+}
 
 body {
     font-family: 'Courier New', Courier, monospace;
@@ -21,3 +23,4 @@ header {
     color: var(--text-color);
     margin: 15px 15px;
 }
+
