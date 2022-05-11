@@ -1,17 +1,29 @@
 :root {
     --text-color: rgb(255, 255, 255);
+    --secondary-text-color: rgba(61, 216, 0, 0.726);
 }
 
+* {
+    box-sizing: border-box;
+}
+
+/* Background Image settings */
 html {
     min-height: 100%;
+    /* Image from unsplash.com by Marcus Lofvenburg */
     background-image: url("../images/u-crescent-moon.webp");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: cover cover;
+    background-position: center;
+    background-attachment: scroll;
     /*filter: brightness(50%);*/
 }
     
-.text-color {
+/*.text-color {
+    color: var(--text-color);
+}*/
+
+.space, .section {
     color: var(--text-color);
 }
 
@@ -20,7 +32,42 @@ body {
 }
 
 header {
+    /*background-image: url(../images/moon-cycle.png);
+    background-size: cover;
+    background-position: center;*/
+    /* element display */
+    display: flex;
+    justify-content: space-between;
+    /* element color/texture */
     color: var(--text-color);
     margin: 15px 15px;
 }
 
+header h1 {
+    padding: 0 15px;
+}
+
+header nav {
+    margin: 10px 0;
+    
+}
+
+header nav ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: none;
+    list-style: none
+}
+
+header nav ul li a {
+    padding: 0 15px;
+    text-decoration: none;
+    color: var(--secondary-text-color);
+    font-size: 20px;
+}
+
+.space {
+    display: block;
+
+}
