@@ -19,9 +19,9 @@ html {
     /*filter: brightness(50%);*/
 }
     
-/*.text-color {
+.text-color {
     color: var(--text-color);
-}*/
+}
 
 .space, .section {
     color: var(--text-color);
@@ -32,9 +32,6 @@ body {
 }
 
 header {
-    /*background-image: url(../images/moon-cycle.png);
-    background-size: cover;
-    background-position: center;*/
     /* element display */
     display: flex;
     justify-content: space-between;
