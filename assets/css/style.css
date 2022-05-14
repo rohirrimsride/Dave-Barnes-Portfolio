@@ -70,10 +70,6 @@ header nav ul li a {
     color: var(--text-color);
 }
 
-.section-border {
-    
-}
-
 .about-me {
     display: flex;
     justify-content: space-between;
