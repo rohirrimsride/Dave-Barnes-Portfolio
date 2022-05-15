@@ -1,7 +1,7 @@
 :root {
     --text-color: rgb(255, 255, 255);
     --secondary-text-color: rgba(61, 216, 0, 0.726);
-    --border-color: rgba(61, 216, 0, 0.349);
+    --border-color: rgba(61, 216, 0, 0.274);
 }
 
 * {
@@ -186,7 +186,29 @@ header nav ul li a {
     text-align: left;
 }
 
-.footer-start {
+.contact-me {
+    border-top: 3px solid var(--border-color);
+    padding: 1%;
+    display: flex;
+    align-items: center;
+
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    color: var(--secondary-text-color);
+    font-size: 110%;
+    text-decoration: none;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+.h3-start {
     color: var(--secondary-text-color);
 }
 
